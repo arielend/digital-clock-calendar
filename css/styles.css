@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(ellipse at center, #08374e 0%, #000 60%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    gap: 100px;
+}
+
+.calendar, .fullDate, .date, .month, .year{
+    display: flex;
+}
+
+.calendar{
+    gap: 100px;
+}
+
+.img-cal{
+    height: 80px;
+}
+
+
+.img-time{
+    height: 300px;
+    max-width: 95%;
+}
+
+.clock{
+    display: flex;
+    gap:10px;
+}
+
+.clock-hours, .clock-minutes, .clock-seconds{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.clock-dots{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-dots img{
+    height: 200px;
+}
